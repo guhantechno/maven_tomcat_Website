@@ -1,0 +1,77 @@
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("./home.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Home Container */
+.home-container {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  margin: 100px auto; /* Center the container */
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #222;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 1.8em;
+  margin: 15px 0;
+  color: #444;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff3300;
+  text-decoration: underline;
+}
+
+/* Navbar styling for consistency */
+header {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  color: white;
+  text-align: center;
+}
+
+header a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ff9900;
+}
